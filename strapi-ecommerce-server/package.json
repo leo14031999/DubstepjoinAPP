@@ -1,0 +1,36 @@
+{
+  "name": "strapi-ecommerce-server",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "4.0.7",
+    "strapi-admin": "4.0.7",
+    "strapi-utils": "4.0.7",
+    "strapi-plugin-content-type-builder": "4.0.7",
+    "strapi-plugin-content-manager": "4.0.7",
+    "strapi-plugin-users-permissions": "4.0.7",
+    "strapi-plugin-email": "4.0.7",
+    "strapi-plugin-upload": "4.0.7",
+    "strapi-plugin-i18n": "4.0.7",
+    "strapi-connector-mongoose": "4.0.7"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "24d3167a-28b6-4420-89bb-86e0b8f7e677"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
